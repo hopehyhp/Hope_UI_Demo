@@ -1,0 +1,47 @@
+.layout-menuitem-root-text {
+  text-transform: uppercase;
+  color: var(--surface-900);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: .875rem;
+}
+
+.menu-layout li {
+  list-style-type: none;
+
+  a {
+    text-decoration: inherit;
+    display: inline-flex;
+    padding: 10px 15px;
+    color: var(--text);
+    width: 100%;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    &:hover {
+      background: #eef1f7;
+    }
+  }
+
+  span {
+    padding-left: 20px;
+
+  }
+
+}
+
+.menu-layout ul {
+  padding: 0;
+}
+
+.active-menuitem-routerlink {
+  background: #eef1f7;
+}
+
+.sub-menu {
+  padding: 10px 15px 10px 50px !important;
+}
